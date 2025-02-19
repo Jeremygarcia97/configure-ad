@@ -76,23 +76,28 @@ Create Second VM-Name Client-1, Image: Windows 10 Pro, Hit Reveiw+create
 
 
 <p>
-- Login to Client-1 using Microsoft Remote Desktop- Once login Right click Start menu- Click Run- Type ms.msc. This will open windows Firewall- Click Firewall properties- Select domian,Private,public and switch to off-then hit apply and OK. 
+- Login to Dc-1 using Microsoft Remote Desktop- Once login Right click Start menu- Click Run- Type ms.msc. This will open windows Firewall- Click Firewall properties- Select domian,Private,public and switch to off-then hit apply and OK. 
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/0d17200b-d643-4e62-9444-53c3865a4c77)
+![image](https://github.com/user-attachments/assets/84892fc1-9900-4a2d-82b4-76617c599511)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we are going to set Client-1 DNS setting to DC-1 Private IP Address. First Get the Private Ip address of DC-1- Click Client- 1 VM- Click Network then Network Settings- Click Network interface card- Select DNS Servers- Custom- Enter IP addres of DC-1- Then click Save.
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/e19fd5e4-40f0-4029-9fe5-05eec2c95cec)
+![image](https://github.com/user-attachments/assets/bec853a0-71de-4a1b-8dea-e49372942280)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Login to Client-1 using Microsoft Remote Desktop
+- Search for Powershell and open it
+-Ping DC-1's private IP Address (for example, ping 10.1.0.4)
+-Enter ipcinfig /all to show DC-1 private IP Address
 </p>
 <br />
 
