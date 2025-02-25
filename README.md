@@ -101,43 +101,63 @@ Now we are going to set Client-1 DNS setting to DC-1 Private IP Address. First G
 </p>
 <br />
 
+<h3>Step 3: Install Active Directory</h3>
+
+![image](https://github.com/user-attachments/assets/4e3a8ae9-fe64-4a6c-8e63-66f9752aae2b)
+![image](https://github.com/user-attachments/assets/e806e1dc-3f1b-4c8f-9856-a98a21775a9b)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log back into DC-1
+Open Server Manager
+Select "Add Roles and Features" > Follow the prompts
+At Server Roles, check "Active Directory Domain Services."
+Select Add Features > select Next
+Complete the installation.
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/7e93083d-0ba4-4852-a475-079c80e90f3f)
+
+![image](https://github.com/user-attachments/assets/8f4f5b60-0a41-44ae-90fe-35ed97128f40)
+
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+At the top right of the Server Manager Dashboard, click on the flag>
+Select "Promote This Server to a Domain Controller">
+Select "Add a New Forest">
+Root domain name: mydomain.com>
+Select Next>
+Create a password,
+Select Next and follow the prompts,
+Select Install to complete the installation.	
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/89628410-1cf5-41d4-abab-e0fdbdc0fe48)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+DC-1 will automatically restart>
+Log back into DC-1 as user: mydomain.com\labuser.
 </p>
 <br />
 
+<h3>Step 4: Create an Admin and Normal User Account in Active Directory.</h3>
+
+![image](https://github.com/user-attachments/assets/3d3267bc-5741-40a2-b45a-314ed33e668e)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On DC-1.click start menu> Select administrative tools> click Active Directory Users and Computers
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/d0a463b3-8e63-4da8-baaf-c14c863c0e17)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Right-click mydomain.com > New > Select Oranizational Unit>
+Create two OUs>
+Name the first "_EMPLOYEES">
+Name the second "_ADMINS".
 </p>
 <br />
 
