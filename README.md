@@ -161,27 +161,52 @@ Name the second "_ADMINS".
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/feee7813-0675-498a-af7d-9761043812cc)
+![image](https://github.com/user-attachments/assets/fd139464-e33e-4e36-83f7-5bbca97b6261)
+![image](https://github.com/user-attachments/assets/0ad4578e-92d5-4840-ba28-8679f1d05d6b)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to the _ADMINS OU
+Right-click the name _ADMINS > New > User>
+First/Last name: Jane Doe>
+User login name: jane_admin>
+Select Next>
+Create a password>
+Select Next and then select Finish.
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/cbc58e48-72bc-4cbe-af6d-6d18cafe4adb)
+![image](https://github.com/user-attachments/assets/ee453884-f7b7-4e22-a0a0-26754bbb39be)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Right-click Jane Doe > select Properties
+Click the tab named "Member of" > select Add
+Type in the names of your domain administrators>
+Select "Check Names" > OK > Apply
+Log out of DC-1 as "labuser" and log back in as “mydomain.com\jane_admin”.
 </p>
 <br />
 
+<h3>Step 5: Join Client-1 to your domain (mydomain.com)
+</h3>
+
+![image](https://github.com/user-attachments/assets/6cc47d37-7377-4bf6-8922-db658738f281)
+![image](https://github.com/user-attachments/assets/7606d6ae-a402-4882-9bfc-c342c7bed28d)
+
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log back into Client-1 using Microsoft Remote Desktop as the original local admin (labuser)>
+Right-click the Start menu and select System>
+On right-hand side of the screen, select Rename This PC (Advanced) > Change
+Under "Member of," select Domain>
+Type "mydomain.com" and select OK>
+Username: mydomain.com\jane_admin>
+Type in password and press OK>
+Restart the computer>
+.
 </p>
 <br />
 
