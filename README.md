@@ -210,13 +210,29 @@ Restart the computer>
 </p>
 <br />
 
+
+<h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1
+</h3>
+
+![image](https://github.com/user-attachments/assets/865b64a7-118d-40a1-9fb0-cedf9afcc289)
+![image](https://github.com/user-attachments/assets/33335b5e-f161-441d-8651-b430bd9d89cc)
+
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Log back into Client-1>
+- Use mydomain.com\jane_admin>
+- Right-click the Start menu and select System>
+- right-hand side of the screen, select Remote Desktop>
+- Under User Accounts, click "Select Users That Can Remotely Access This PC > select Add>
+- Type in the name of your domain users>
+- Select "Check Names" > OK.
 </p>
 <br />
+
+
+<h3>Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users
+</h3>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
