@@ -247,17 +247,22 @@ Restart the computer>
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/2cef341a-962f-4e8a-9cf7-dc6046dde566)
+![image](https://github.com/user-attachments/assets/067406c3-8bfc-4e4d-bc41-0b8c8835b4b8)
+![image](https://github.com/user-attachments/assets/4a5e6185-a299-4dcd-b93f-936ef2bcd889)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click the green arrow button near the top-middle of the screen to run script> Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES - You will see all the accounts that were created.
+.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/4dba7183-f115-4b9e-a515-1b22bd01ac29)
+![image](https://github.com/user-attachments/assets/016e83d7-b1b2-43a6-98f5-5fd1151a6167)
+![image](https://github.com/user-attachments/assets/ad1ce890-68fa-45b4-b607-7147de4fb12c)
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
