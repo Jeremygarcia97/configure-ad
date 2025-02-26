@@ -234,11 +234,12 @@ Restart the computer>
 <h3>Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users
 </h3>
 
+![image](https://github.com/user-attachments/assets/37df0ada-36c2-4556-8700-bf17a1df7736)
+![image](https://github.com/user-attachments/assets/57de54bc-10c1-437c-a742-16c3a9ffdf5b)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- You can find the script [here](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
 </p>
 <br />
 
